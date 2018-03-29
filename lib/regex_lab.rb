@@ -31,5 +31,5 @@ end
 end
 
 def valid_phone_number?(phone)
-binding.pry
+  phone.match(/\d{10}/)
 end
